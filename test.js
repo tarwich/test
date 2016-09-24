@@ -1,7 +1,7 @@
 'use strict';
 
 let test = function() {
-  console.log('Test 1');
+  console.log('Test 2');
   setTimeout(test, 1000);
 }
 

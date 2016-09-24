@@ -1,0 +1,10 @@
+version: '2'
+services:
+  watchtower:
+    image: drud/watchtower
+    environment:
+      REPO_USER: tarwich
+      REPO_PASS: 8@AT1U4qxaM@ThpS
+      REPO_EMAIL: tarwich@gmail.com
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
